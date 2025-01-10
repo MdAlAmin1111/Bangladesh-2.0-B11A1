@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+body{
     background-color: rgba(245, 245, 245, 1);
-    /* background-color: aquamarine; */
 }
-.navbar{
-    background-color: green;
-    height: 200px;
-}
-
 /* common-styles */
 .primary-width{
     width: 1280px;
@@ -20,11 +17,10 @@
 }
 .navbar-content{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content:space-between;
+    align-item:center;
 }
 .navbar-content-title{
-    font-family: "Fira Sans", serif;
     font-size: 32px;
     font-weight: 700;
     margin-top: 31px;
@@ -32,15 +28,52 @@
     color: rgba(14, 14, 14, 1);
 }
 .navbar-content-button{
-    font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
     padding: 15px 30px;
     border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
     margin-top: 24px;
-    margin-top: 24px;
+    margin-bottom: 24px;
     cursor: pointer;
     color: rgba(0, 106, 80, 1);
 
+}
+
+/* main section */
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.banner-content{
+    background-color:rgba(198, 228, 214, 1);
+    margin: 117px 60px;
+}
+.banner-content-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-content-title{
+    font-size: 56px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-content-button{
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
 }
