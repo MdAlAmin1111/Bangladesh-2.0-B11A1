@@ -18,6 +18,32 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.center-align{
+    text-align: center;
+}
+.left-align{
+    text-align: left;
+}
+.right-align{
+    text-align: right;
+}
+.table-data{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
+}
+.select-option{
+   border-radius: 4px;
+   font-size: 16px;
+   font-weight: 500;
+   color: rgba(14, 14, 14, 1);
+   background-color: rgba(198, 228, 214, 1);
+   border: 1px solid rgba(14, 14, 14, 1);
+   padding-left: 12px ;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   cursor: pointer;
+}
 
 .navbar-content {
     display: flex;
@@ -138,7 +164,7 @@ body {
 
 /* vision-section styles */
 
-.vision-section {}
+/* .vision-section {} */
 
 .vision-section-title {
     font-size: 40px;
@@ -163,6 +189,7 @@ body {
 .vison-section-cards>div {
     max-width: 410px;
 }
+
 .vison-section-cards>div:hover {
     transform: scale(1.05);
     transition: all 0.3s ease-in-out
@@ -174,7 +201,7 @@ body {
     border-radius: 16px;
 }
 
-.vision-section-card-1-image {}
+/* .vision-section-card-1-image {} */
 
 .vision-section-card-1-title {
     margin-top: 24px;
@@ -209,7 +236,7 @@ body {
     border-radius: 16px;
 }
 
-.vision-section-card-2-image {}
+/* .vision-section-card-2-image {} */
 
 .vision-section-card-2-title {
     margin-top: 24px;
@@ -240,11 +267,11 @@ body {
 
 .vision-section-card-3 {
     padding: 32px;
-    background-color:rgba(247, 235, 207, 1);
+    background-color: rgba(247, 235, 207, 1);
     border-radius: 16px;
 }
 
-.vision-section-card-3-image {}
+/* .vision-section-card-3-image {} */
 
 .vision-section-card-3-title {
     margin-top: 24px;
@@ -271,4 +298,85 @@ body {
     background-color: rgba(255, 194, 57, 1);
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* quote section style */
+
+.quote {
+    padding: 48px 24px;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+
+.quote-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 16px;
+}
+
+.quote-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 4px;
+}
+
+.quote-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+/* opinion section styles */
+.opinion-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.opinion-container-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+
+
+}
+.table-main-div {
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}
+
+.opinion-container-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.opinion-container-table thead {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.opinion-container-table th,
+td {
+    padding: 37px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+/* .opinion-container-table tr {} */
+
+.table-head {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
 }
