@@ -529,3 +529,55 @@ td {
     color: rgba(255, 255, 255, 1);
     border-radius: 8px;
 }
+
+/* newslatter section styles */
+.newslatter{
+    padding: 80px 265px;
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+.newslatter-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+.newslatter-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 16px;
+}
+.newslatter-input-button{
+    display: flex;
+    flex-direction: row;
+}
+.newslatter-input-button > input{
+    padding: 18px 403px 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.newslatter-input-button > button{
+    padding: 17px 34px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+
+}
+.newslatter-footer{
+ font-size: 16px;
+ font-weight: 400;
+ color: rgba(14, 14, 14, 0.7);
+ margin-top: 24px;
+}
