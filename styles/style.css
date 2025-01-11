@@ -581,3 +581,27 @@ td {
  color: rgba(14, 14, 14, 0.7);
  margin-top: 24px;
 }
+
+/* footer section styles */
+
+.footer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 1);
+}
+
+.footer > hr{
+    color:rgba(14, 14, 14, 0.1);
+    width: 1122px;
+}
+.footer-icons{
+ display: flex;
+ gap: 23px;
+}
