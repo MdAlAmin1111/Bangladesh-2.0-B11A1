@@ -61,7 +61,7 @@ body {
 .navbar-content {
     display: flex;
     justify-content: space-between;
-    align-item: center;
+    align-items: center;
 }
 
 .navbar-content-title {
